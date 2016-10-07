@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="financial_mgmt_user" name="financial_mgmt_user">a82c497cc0a80a647174c407eafc37a9</contains>
+        <role display_value="x_spog_f_and_d.non_agent" name="x_spog_f_and_d.non_agent">d02a6fd23751d2004ed29c9953990e73</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-09-30 13:41:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>fb0dd033db8a62402ab570d9bf961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>financial_mgmt_user.x_spog_f_and_d.non_agent</sys_name>
+        <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+        <sys_update_name>sys_user_role_contains_fb0dd033db8a62402ab570d9bf961960</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-09-30 13:41:17</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

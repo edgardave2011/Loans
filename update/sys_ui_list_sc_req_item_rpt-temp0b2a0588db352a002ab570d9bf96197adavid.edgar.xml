@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sc_req_item" version="2" view="rpt-temp0b2a0588db352a002ab570d9bf96197adavid.edgar">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="532ac588db352a002ab570d9bf961956">f70c41c8db352a002ab570d9bf961932</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-06 15:13:44</sys_created_on>
+            <sys_id>3f0c41c8db352a002ab570d9bf961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-06 15:13:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request.requested_for</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="532ac588db352a002ab570d9bf961956">f70c41c8db352a002ab570d9bf961932</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-06 15:13:44</sys_created_on>
+            <sys_id>bf0c41c8db352a002ab570d9bf961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-06 15:13:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="532ac588db352a002ab570d9bf961956">f70c41c8db352a002ab570d9bf961932</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-06 15:13:44</sys_created_on>
+            <sys_id>330c41c8db352a002ab570d9bf961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-06 15:13:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cmdb_ci</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="532ac588db352a002ab570d9bf961956">f70c41c8db352a002ab570d9bf961932</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-06 15:13:44</sys_created_on>
+            <sys_id>b30c41c8db352a002ab570d9bf961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-06 15:13:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>stage</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="532ac588db352a002ab570d9bf961956">f70c41c8db352a002ab570d9bf961932</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-06 15:13:44</sys_created_on>
+            <sys_id>370c41c8db352a002ab570d9bf961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-06 15:13:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request.opened_by</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="532ac588db352a002ab570d9bf961956">f70c41c8db352a002ab570d9bf961932</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-06 15:13:44</sys_created_on>
+            <sys_id>b70c41c8db352a002ab570d9bf961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-06 15:13:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>variables.b07c0493374d060050579c9953990eb8</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="532ac588db352a002ab570d9bf961956">f70c41c8db352a002ab570d9bf961932</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-06 15:13:44</sys_created_on>
+            <sys_id>3b0c41c8db352a002ab570d9bf961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-06 15:13:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sc_req_item</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-06 15:13:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f70c41c8db352a002ab570d9bf961932</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-05 08:14:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt-temp0b2a0588db352a002ab570d9bf96197adavid.edgar" name="rpt-temp0b2a0588db352a002ab570d9bf96197adavid.edgar">532ac588db352a002ab570d9bf961956</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

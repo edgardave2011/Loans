@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_spog_f_and_d_f_and_d">project_category=Relocation^EQ<item endquery="false" field="project_category" goto="false" newquery="false" operator="=" or="false" value="Relocation"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>101</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+g_form.setValue('loan_type','Relocation');
+//g_form.setValue('loan_type_1_loan_terms_length','60 Months');
+	//g_form.setValue('loan_type_1_loan_terms_rate','6.25');
+	g_form.setValue('loan_type_2','Relocation');
+// 	g_form.setValue('loan_type_2_loan_terms_length','60 Months');
+// 	g_form.setValue('loan_type_3_loan_terms_rate','6.25');
+	g_form.setValue('loan_type_3','Relocation');
+// 	g_form.setValue('loan_type_3_loan_terms_length','60 Months');
+// 	g_form.setValue('loan_type_3_loan_terms_rate','6.25');	
+	g_form.setValue('loan_type_4','Relocation');
+// 	g_form.setValue('loan_type_4_loan_terms_length','60 Months');
+// 	g_form.setValue('loan_type_4_loan_terms_rate','6.25');
+}]]></script_true>
+        <set_values/>
+        <short_description>Relocation loan Type - set rates Loan 1-4</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-25 10:45:21</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0a9982f04f8fd200e0f34a318110c7fb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Relocation loan Type - set rates Loan 1-4</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+        <sys_update_name>sys_ui_policy_0a9982f04f8fd200e0f34a318110c7fb</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-09-23 08:26:49</sys_updated_on>
+        <table>x_spog_f_and_d_f_and_d</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

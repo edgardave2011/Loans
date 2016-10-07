@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-09-30 14:43:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>232ba4f7db8a62402ab570d9bf961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_spog_f_and_d_f_and_d.loan_type_3_loan_terms_comments.x_spog_f_and_d.non_agent</sys_name>
+        <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+        <sys_security_acl display_value="x_spog_f_and_d_f_and_d.loan_type_3_loan_terms_comments">004a6d2fdb4822002ab550d9bf9619fd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_232ba4f7db8a62402ab570d9bf961962</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-09-30 14:43:04</sys_updated_on>
+        <sys_user_role display_value="x_spog_f_and_d.non_agent" name="x_spog_f_and_d.non_agent">d02a6fd23751d2004ed29c9953990e73</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

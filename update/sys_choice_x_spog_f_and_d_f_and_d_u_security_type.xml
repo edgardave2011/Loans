@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_security_type" table="x_spog_f_and_d_f_and_d" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_security_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Secured</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>1</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 14:09:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30f528623791d2004ed29c9953990ef8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-03-29 13:58:57</sys_updated_on>
+            <value>Secured</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_security_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UnSecured</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>2</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 14:09:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78f528623791d2004ed29c9953990ef8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-03-29 13:58:54</sys_updated_on>
+            <value>UnSecured</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_security_type</element>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 14:09:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>dcb1e4bbdb8f92006d11f1eabf961964</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>u_security_type</sys_name>
+            <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+            <sys_update_name>sys_choice_x_spog_f_and_d_f_and_d_u_security_type</sys_update_name>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-05 08:14:01</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

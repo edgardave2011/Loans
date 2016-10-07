@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_email_canned_message">
+    <sys_email_canned_message action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <body><![CDATA[<p>Dear Partners</p>
+<p>We are pleased to attach the following documentation relating to the requested Specsavers Finance Loan Facility:</p>
+<p>Please print the attached documentation and after you have reviewed in full:<br />• Sign and date the Loan Agreement and any additional security documentation<br />• Photocopy the signed documentation for your records, returning all originals to us via recorded delivery.</p>
+<p>We confirm that until we are in receipt of the above we will be unable to draw down your loan facility, please return your signed original documentation within 30 days by recorded delivery to:</p>
+<p>Financing and Distributions Department<br />Specsavers Finance (Guernsey) Limited,<br />La Villiaze,<br />St Andrew&#39;s, <br />Guernsey, <br />Channel Islands, <br />GY6 8YP</p>
+<p>Please note that monthly repayments to cover interest charges and capital will be in accordance with the loan terms outlined in the attached loan agreement</p>
+<p>Should you have any queries regarding the above, please do not hesitate to contact<br />gg.financinganddistributions&#64;specsavers.com</p>
+<p><br />Regards<br />Financing &amp; Distributions</p>]]></body>
+        <group display_value="F &amp; D" name="F &amp; D">362be47fdb8f92006d11f1eabf961968</group>
+        <sys_class_name>sys_email_canned_message</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-07-15 14:38:22</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4db780cfdba026002ab550d9bf9619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loan Docs</sys_name>
+        <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+        <sys_update_name>sys_email_canned_message_4db780cfdba026002ab550d9bf9619b0</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-07-15 14:38:22</sys_updated_on>
+        <title>Loan Docs</title>
+        <user display_value="David Edgar">b773c69637b8820050579c9953990eae</user>
+    </sys_email_canned_message>
+</record_update>

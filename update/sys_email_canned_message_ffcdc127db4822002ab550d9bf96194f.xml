@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_email_canned_message">
+    <sys_email_canned_message action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <body><![CDATA[<p>Dear all</p>
+<p>Please be advised the following ${project_category} loan has been approved and drawn down:</p>
+<p>Loanee: ${loanee}<br />Loan amount: ${equipment_total}<br />Loan number: <strong style="color: #ff0000;">PLEASE COMPLETE</strong><br />Date of draw down: <strong style="color: #ff0000;">PLEASE COMPLETE</strong><br />Loan period: <strong style="color: #ff0000;">PLEASE COMPLETE</strong> <em><span style="color: red;">[second loan required?]</span></em></p>
+<p>Should you have any queries regarding the above, please do not hesitate to contact<br />gg.financinganddistributions&#64;specsavers.com</p>
+<p><br />Regards<br />Financing &amp; Distributions</p>]]></body>
+        <group display_value="F &amp; D" name="F &amp; D">362be47fdb8f92006d11f1eabf961968</group>
+        <sys_class_name>sys_email_canned_message</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-06-22 12:33:35</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ffcdc127db4822002ab550d9bf96194f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Drawdown Confirmation</sys_name>
+        <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+        <sys_update_name>sys_email_canned_message_ffcdc127db4822002ab550d9bf96194f</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-07-15 14:35:21</sys_updated_on>
+        <title>Drawdown Confirmation</title>
+        <user display_value="David Edgar">b773c69637b8820050579c9953990eae</user>
+    </sys_email_canned_message>
+</record_update>

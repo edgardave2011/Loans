@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true" audit="true" extends="task" label="F and D " max_length="40" name="x_spog_f_and_d_f_and_d" sizeclass="270" text_index="true" type="collection">
+        <element audit="true" label="Contact Name" mandatory="true" max_length="40" name="contact_name" type="string"/>
+        <element attributes="omit_sys_original=true" audit="true" label="Deposit payable" max_length="15" name="deposit_payable_b" type="currency"/>
+        <element audit="true" label="Loan Documents Ready For Review" max_length="40" name="documents_ready_for_review" type="boolean"/>
+        <element attributes="omit_sys_original=true" audit="true" label="Equipment Total" mandatory="true" max_length="15" name="equipment_total" type="currency"/>
+        <element audit="true" label="Equipment Total Cost" max_length="40" name="equipment_total_cost" type="string"/>
+        <element audit="true" label="Expected project date" max_length="40" name="expected_project_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" audit="true" choice="1" label="FD Approval" max_length="40" name="fd_approval" type="string">
+            <choice>
+                <element label="Not Yet Reqeusted" sequence="0" value="not yet reqeusted"/>
+                <element label="Rejected" sequence="1" value="rejected"/>
+                <element label="F&amp;D Reqeusted" sequence="2" value="f&amp;d requested"/>
+                <element label="Approved" sequence="3" value="approved"/>
+                <element label="FP1 Requested" sequence="4" value="fp1 requested"/>
+                <element label="FP1 Approved" sequence="5" value="fp1 approved"/>
+                <element label="FP2 Requested" sequence="6" value="fp2 requested"/>
+                <element label="FP2 Approved" sequence="7" value="fp2 approved"/>
+            </choice>
+        </element>
+        <element audit="true" choice="3" label="State" mandatory="true" max_length="40" name="f_n_d_state" type="integer">
+            <choice>
+                <element label="Draft Request" sequence="0" value="0"/>
+                <element label="F&amp;D to process" sequence="1" value="20"/>
+                <element label="F&amp;D to review" sequence="2" value="21"/>
+                <element label="F&amp;D Validation" sequence="3" value="1"/>
+                <element label="PO Raised and Sent to Supplier" sequence="4" value="3"/>
+                <element label="F&amp;D approved" sequence="5" value="22"/>
+                <element label="Awaiting Finance Agreement" sequence="6" value="5"/>
+                <element label="Loan Docs Required" sequence="7" value="6"/>
+                <element label="Loan Docs to be Reviewed" sequence="8" value="7"/>
+                <element label="Loan Docs to be Emailed to Store" sequence="9" value="8"/>
+                <element label="Loan Documents Sent" sequence="10" value="9"/>
+                <element label="Lease Docs Received and Awaiting Processing" sequence="11" value="10"/>
+                <element label="Issues" sequence="12" value="11"/>
+                <element label="Awaiting Drawdown Approval" sequence="13" value="13"/>
+                <element label="Request Complete" sequence="14" value="14"/>
+                <element label="Closed" sequence="15" value="99"/>
+            </choice>
+        </element>
+        <element audit="true" label="Lease Documents Reviewed" max_length="40" name="lease_documents_ready_for_review" type="boolean"/>
+        <element audit="true" label="Finance Agreements Returned complete" max_length="40" name="lease_documents_returned_complete" type="boolean"/>
+        <element audit="true" label="Borrower" mandatory="true" max_length="32" name="loanee" reference="sys_user" type="reference"/>
+        <element audit="true" label="Loan 2 Required" max_length="40" name="loan_2_required" type="boolean"/>
+        <element audit="true" label="Loan 3 Required" max_length="40" name="loan_3_required" type="boolean"/>
+        <element audit="true" label="Loan 4 Required" max_length="40" name="loan_4_required" type="boolean"/>
+        <element audit="true" label="Loan Documents Returned Complete" max_length="40" name="loan_documents_returned_complete" type="boolean"/>
+        <element audit="true" label="Loan Documents Reviewed" max_length="40" name="loan_documents_reviewed" type="boolean"/>
+        <element audit="true" label="Loan Documents Sent to Store" max_length="40" name="loan_documents_sent_to_store" type="boolean"/>
+        <element audit="true" label="Loan Drawdown Approval Complete" max_length="40" name="loan_drawdown_approval_complete" type="boolean"/>
+        <element attributes="omit_sys_original=true" audit="true" label="Loan required" max_length="15" name="loan_required_c" read_only="true" type="currency"/>
+        <element audit="true" choice="1" label="Loan Type" max_length="40" name="loan_type" type="string">
+            <choice>
+                <element label="Shopfit loan" sequence="0" value="Shopfit loan"/>
+                <element label="Start up loan" sequence="1" value="Start up loan"/>
+                <element label="Hearcare in a box loan" sequence="2" value="Hearcare in a box loan"/>
+                <element label="Personal loan" sequence="3" value="Personal loan"/>
+                <element label="Equipment loan" sequence="4" value="Equipment loan"/>
+                <element label="Low value loan" sequence="5" value="Low Value loan"/>
+                <element label="Debt consolidation loan" sequence="6" value="Debt consolidation loan"/>
+                <element label="Relocation loan" sequence="7" value="Relocation loan"/>
+                <element label="Other" sequence="8" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" audit="true" label="Loan type 1: Loan terms: Amount" max_length="15" name="loan_type_1_loan_terms_amount" type="currency"/>
+        <element audit="true" label="Loan type 1: Loan terms: Comments" max_length="4000" name="loan_type_1_loan_terms_comments" type="journal"/>
+        <element audit="true" choice="1" default="select" label="Loan type 1: Loan terms: Length" max_length="40" name="loan_type_1_loan_terms_length" type="string">
+            <choice>
+                <element label="Please Select" sequence="0" value="select"/>
+                <element label="24 Months" sequence="1" value="24 Months"/>
+                <element label="36 Months" sequence="2" value="36 Months"/>
+                <element label="48 Months" sequence="3" value="48 Months"/>
+                <element label="60 Months" sequence="4" value="60 Months"/>
+                <element label="72 Months" sequence="5" value="72 Months"/>
+                <element label="84 Months" sequence="6" value="84 Months"/>
+                <element label="96 Months" sequence="6" value="96 Months"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" audit="true" label="Loan type 1: Loan terms: Monthly repayment" max_length="15" name="loan_type_1_loan_terms_monthly_repayment" read_only="true" type="currency"/>
+        <element audit="true" choice="3" default="select" label="Loan type 1: Loan terms: Rate (%)" max_length="40" name="loan_type_1_loan_terms_rate" type="string">
+            <choice>
+                <element label="Please Select" sequence="0" value="select"/>
+                <element label="3.750" sequence="1" value="3.750"/>
+                <element label="4.063" sequence="2" value="4.063"/>
+                <element label="4.690" sequence="3" value="4.690"/>
+                <element label="5.000" sequence="4" value="5.000"/>
+                <element label="5.310" sequence="5" value="5.310"/>
+                <element label="5.625" sequence="6" value="5.625"/>
+                <element label="5.938" sequence="7" value="5.938"/>
+                <element label="Other" sequence="8" value="Other"/>
+                <element label="3.000" sequence="9" value="3.000"/>
+                <element label="3.250" sequence="10" value="3.250"/>
+                <element label="4.000" sequence="11" value="4.000"/>
+                <element label="4.250" sequence="12" value="4.250"/>
+                <element label="4.500" sequence="13" value="4.500"/>
+                <element label="4.750" sequence="14" value="4.750"/>
+            </choice>
+        </element>
+        <element audit="true" choice="1" default="Other" label="Loan Type 2" max_length="40" name="loan_type_2" type="string">
+            <choice>
+                <element label="Shopfit loan" sequence="0" value="Shopfit loan"/>
+                <element label="Start up loan" sequence="1" value="Start up loan"/>
+                <element label="Hearcare in a box loan" sequence="2" value="Hearcare in a box loan"/>
+                <element label="Personal loan" sequence="3" value="Personal loan"/>
+                <element label="Equipment loan" sequence="4" value="Equipment loan"/>
+                <element label="Low value loan" sequence="5" value="Low value loan"/>
+                <element label="Debt consolidation loan" sequence="6" value="Debt consolidation loan"/>
+                <element label="Relocation loan" sequence="7" value="Relocation loan"/>
+                <element label="Other" sequence="8" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" audit="true" label="Loan type 2: Loan terms: Amount" max_length="15" name="loan_type_2_loan_terms_amount" type="currency"/>
+        <element audit="true" label="Loan type 2: Loan terms: Comments" max_length="4000" name="loan_type_2_loan_terms_comments" type="journal"/>
+        <element audit="true" choice="1" label="Loan type 2: Loan terms: Length" max_length="40" name="loan_type_2_loan_terms_length" type="string">
+            <choice>
+                <element label="24 Months" sequence="0" value="24 Months"/>
+                <element label="36 Months" sequence="1" value="36 Months"/>
+                <element label="48 Months" sequence="2" value="48 Months"/>
+                <element label="60 Months" sequence="3" value="60 Months"/>
+                <element label="72 Months" sequence="4" value="72 Months"/>
+                <element label="84 Months" sequence="5" value="84 Months"/>
+                <element label="96 Months" sequence="6" value="96 Months"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" audit="true" label="Loan type 2: Loan terms: Monthly repayment" max_length="15" name="loan_type_2_loan_terms_monthly_repayment" type="currency"/>
+        <element audit="true" choice="3" label="Loan type 2: Loan terms: Rate (%)" max_length="40" name="loan_type_2_loan_terms_rate" type="string">
+            <choice>
+                <element label="3.750" sequence="0" value="3.750"/>
+                <element label="4.063" sequence="1" value="4.063"/>
+                <element label="4.690" sequence="2" value="4.690"/>
+                <element label="5.000" sequence="3" value="5.000"/>
+                <element label="5.310" sequence="4" value="5.310"/>
+                <element label="5.938" sequence="5" value="5.938"/>
+                <element label="Other" sequence="6" value="Other"/>
+                <element label="3.000" sequence="7" value="3.000"/>
+                <element label="3.250" sequence="8" value="3.250"/>
+                <element label="4.250" sequence="9" value="4.250"/>
+                <element label="4.500" sequence="10" value="4.500"/>
+                <element label="4.750" sequence="11" value="4.750"/>
+            </choice>
+        </element>
+        <element audit="true" choice="1" label="Loan Type 3" max_length="40" name="loan_type_3" type="string">
+            <choice>
+                <element label="Shopfit loan" sequence="0" value="Shopfit loan"/>
+                <element label="Start up loan" sequence="1" value="Start up loan"/>
+                <element label="Hearcare in a box  loan" sequence="2" value="Hearcare in a box  loan"/>
+                <element label="Personal loan" sequence="3" value="Personal loan"/>
+                <element label="Equipment loan" sequence="4" value="Equipment loan"/>
+                <element label="Low value loan" sequence="5" value="Low value loan"/>
+                <element label="Debt consolidation  loan" sequence="6" value="Debt consolidation  loan"/>
+                <element label="Relocation loan" sequence="7" value="Relocation loan"/>
+                <element label="Other" sequence="8" value="other"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" audit="true" label="Loan type 3: Loan terms: Amount" max_length="15" name="loan_type_3_loan_terms_amount" type="currency"/>
+        <element audit="true" label="Loan type 3: Loan terms: Comments" max_length="4000" name="loan_type_3_loan_terms_comments" type="journal"/>
+        <element audit="true" choice="1" label="Loan type 3: Loan terms: Length" max_length="40" name="loan_type_3_loan_terms_length" type="string">
+            <choice>
+                <element label="24 Months" sequence="0" value="24 Months"/>
+                <element label="36 Months" sequence="1" value="36 Months"/>
+                <element label="48 Months" sequence="2" value="48 Months"/>
+                <element label="60 Months" sequence="3" value="60 Months"/>
+                <element label="72 Months" sequence="4" value="72 Months"/>
+                <element label="84 Months" sequence="5" value="84 Months"/>
+                <element label="96 Months" sequence="6" value="96 Months"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" audit="true" label="Loan type 3: Loan terms: Monthly repayment" max_length="15" name="loan_type_3_loan_terms_monthly_repayment" type="currency"/>
+        <element audit="true" choice="1" label="Loan type 3: Loan terms: Rate (%)" max_length="40" name="loan_type_3_loan_terms_rate" type="string">
+            <choice>
+                <element label="3.750" sequence="1" value="3.750"/>
+                <element label="4.063" sequence="2" value="4.063"/>
+                <element label="4.690" sequence="3" value="4.690"/>
+                <element label="5.000" sequence="4" value="5.000"/>
+                <element label="5.310" sequence="5" value="5.310"/>
+                <element label="5.625" sequence="6" value="5.625"/>
+                <element label="5.938" sequence="7" value="5.938"/>
+                <element label="Other" sequence="8" value="Other"/>
+                <element label="3.000" sequence="9" value="3.000"/>
+                <element label="3.250" sequence="10" value="3.250"/>
+                <element label="4.000" sequence="11" value="4.000"/>
+                <element label="4.250" sequence="12" value="4.250"/>
+                <element label="4.500" sequence="13" value="4.500"/>
+                <element label="4.750" sequence="14" value="4.750"/>
+            </choice>
+        </element>
+        <element audit="true" choice="1" label="Loan Type 4" max_length="40" name="loan_type_4" type="string">
+            <choice>
+                <element label="Shopfit loan" sequence="0" value="Shopfit loan"/>
+                <element label="Start up loan" sequence="1" value="Start up loan"/>
+                <element label="Hearcare in a box  loan" sequence="2" value="Hearcare in a box  loan"/>
+                <element label="Personal loan" sequence="3" value="Personal loan"/>
+                <element label="Equipment loan" sequence="4" value="Equipment loan"/>
+                <element label="Low value loan" sequence="5" value="Low value loan"/>
+                <element label="Debt consolidation  loan" sequence="6" value="Debt consolidation  loan"/>
+                <element label="Relocation loan" sequence="7" value="Relocation loan"/>
+                <element label="Other" sequence="8" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" audit="true" label="Loan type 4: Loan terms: Amount" max_length="15" name="loan_type_4_loan_terms_amount" type="currency"/>
+        <element audit="true" label="Loan type 4: Loan terms: Comments" max_length="4000" name="loan_type_4_loan_terms_comments" type="journal"/>
+        <element audit="true" choice="1" label="Loan type 4: Loan terms: Length" max_length="40" name="loan_type_4_loan_terms_length" type="string">
+            <choice>
+                <element label="24 Months" sequence="0" value="24 Months"/>
+                <element label="36 Months" sequence="1" value="36 Months"/>
+                <element label="48 Months" sequence="2" value="48 Months"/>
+                <element label="60 Months" sequence="3" value="60 Months"/>
+                <element label="72 Months" sequence="4" value="72 Months"/>
+                <element label="84 Months" sequence="5" value="84 Months"/>
+                <element label="96 Months" sequence="6" value="96 Months"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" audit="true" label="Loan type 4: Loan terms: Monthly repayment" max_length="15" name="loan_type_4_loan_terms_monthly_repayment" type="currency"/>
+        <element active="false" attributes="omit_sys_original=true" audit="true" choice="1" label="OLD Loan type 4: Loan terms: Rate (%)" max_length="15" name="loan_type_4_loan_terms_rate" type="currency">
+            <choice>
+                <element label="6.25" sequence="0" value="6.25"/>
+                <element label="5.635" sequence="1" value="5.635"/>
+                <element label="4.635" sequence="2" value="4.635"/>
+                <element label="4.50" sequence="3" value="4.50"/>
+                <element label="4.25" sequence="4" value="4.25"/>
+                <element label="3.25" sequence="5" value="3.25"/>
+                <element label="Other" sequence="6" value="Other"/>
+            </choice>
+        </element>
+        <element choice="3" label="Loan type 4: Loan terms: Rate (%) " max_length="40" name="loan_type_4_loan_terms_rate_new" type="string">
+            <choice>
+                <element label="4.750" sequence="0" value="4.750"/>
+                <element label="4.500" sequence="1" value="4.500"/>
+                <element label="4.250" sequence="2" value="4.250"/>
+                <element label="4.000" sequence="3" value="4.000"/>
+                <element label="3.250" sequence="4" value="3.250"/>
+                <element label="3.000" sequence="5" value="3.000"/>
+                <element label="Other" sequence="6" value="Other"/>
+                <element label="5.938" sequence="7" value="5.938"/>
+                <element label="5.625" sequence="8" value="5.625"/>
+                <element label="5.310" sequence="9" value="5.310"/>
+                <element label="5.000" sequence="10" value="5.000"/>
+                <element label="4.690" sequence="11" value="4.690"/>
+                <element label="4.063" sequence="12" value="4.063"/>
+                <element label="3.750" sequence="13" value="3.750"/>
+            </choice>
+        </element>
+        <element audit="true" label="% of deposit" max_length="15" name="of_deposit" read_only="true" type="decimal"/>
+        <element audit="true" calculation="(function calculatedFieldValue(current) {&#10;total_sfg_loan_required_k / total_project_costs_d;&#10;&#9;// Add your code here&#10;&#9;return '';  // return the calculated value&#10;&#10;})(current);" label="% of SFG funding" max_length="15" name="of_sfg_funding_k_d" read_only="true" type="decimal"/>
+        <element audit="true" label="% of SFG funding" max_length="15" name="of_sfg_funding_l_d" read_only="true" type="decimal"/>
+        <element attributes="omit_sys_original=true" audit="true" label="Other funding" max_length="15" name="other_funding_f" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Loan Type" max_length="40" name="other_loan_type" type="string"/>
+        <element attributes="omit_sys_original=true" audit="true" label="Overdraft" max_length="15" name="overdraft" type="currency"/>
+        <element attributes="omit_sys_original=true" audit="true" label="Partner Share Capital" max_length="15" name="partner_share_capital_h" type="currency"/>
+        <element attributes="omit_sys_original=true" audit="true" label="Partner start up loan" max_length="15" name="partner_start_up_loan_g" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" audit="true" choice="1" default="No" label="PO Raised and Sent" max_length="40" name="po_raised_and_sent" type="string">
+            <choice>
+                <element label="No" sequence="0" value="No"/>
+                <element label="Yes" sequence="1" value="Yes"/>
+            </choice>
+        </element>
+        <element audit="true" label="PO Raised  Sent" max_length="40" name="po_raised_sent" type="boolean"/>
+        <element audit="true" choice="1" label="Project category" max_length="40" name="project_category" type="string">
+            <choice>
+                <element label="Rebrand" sequence="0" value="Rebrand"/>
+                <element label="Rebrand+" sequence="1" value="Rebrand+"/>
+                <element label="Expansion" sequence="2" value="Expansion"/>
+                <element label="Minor Works" sequence="3" value="Minor Works"/>
+                <element label="Relocation" sequence="4" value="Relocation"/>
+                <element label="Debt Consolidation" sequence="5" value="Debt Consolidation"/>
+                <element label="Personal Loan" sequence="6" value="Personal Loan"/>
+                <element label="Low Value Loan" sequence="7" value="Low Value Loan"/>
+                <element label="New Store" sequence="8" value="New Store"/>
+            </choice>
+        </element>
+        <element audit="true" choice="1" label="Rejection Reason" max_length="40" name="rejection_reason" type="string">
+            <choice/>
+        </element>
+        <element audit="true" choice="1" label="Request stage" max_length="40" name="request_stage" type="string">
+            <choice>
+                <element label="Pre FP" sequence="0" value="Pre FP"/>
+                <element label="FP1" sequence="1" value="FP1"/>
+                <element label="FP2" sequence="2" value="FP2"/>
+            </choice>
+        </element>
+        <element audit="true" choice="1" label="Request Type" mandatory="true" max_length="40" name="request_type" type="string">
+            <choice>
+                <element label="Personal  Loan" sequence="0" value="Personal  loans requests"/>
+                <element label="Debt  Consolidation" sequence="1" value="Debt  consolidation requests"/>
+                <element label="Business  Development" sequence="2" value="Business  development requests"/>
+                <element label="Low  Value Loan" sequence="3" value="Low  value loans requests"/>
+                <element label="New Store" sequence="4" value="New store requests"/>
+                <element label="Optical Equipment" sequence="5" value="Optical equipment"/>
+                <element label="Hearcare Equipment" sequence="6" value="Hearcare equipment"/>
+                <element label="Cars" sequence="7" value="Cars"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" audit="true" label="SFG start up loan" max_length="15" name="sfg_start_up_loan_j" type="currency"/>
+        <element audit="true" label="% shares purchased" max_length="15" name="shares_purchased" type="decimal"/>
+        <element attributes="omit_sys_original=true" audit="true" label="Shopfit reserve account balance" max_length="15" name="shopfit_reserve_account_balance_e" type="currency"/>
+        <element attributes="omit_sys_original=true" audit="true" label="SOG Share Capital" max_length="15" name="sog_share_capital_i" type="currency"/>
+        <element attributes="omit_sys_original=true" audit="true" label="Total project costs" max_length="15" name="total_project_costs_d" type="currency"/>
+        <element attributes="omit_sys_original=true" audit="true" label="Debt Consolidation Loan required" max_length="15" name="total_sfg_loan_required" type="currency"/>
+        <element attributes="omit_sys_original=true" audit="true" label="Total SFG Loan required" max_length="15" name="total_sfg_loan_required_k" read_only="true" type="currency"/>
+        <element attributes="omit_sys_original=true" audit="true" label="Total SFG Loan required" max_length="15" name="total_sfg_loan_required_l" read_only="true" type="currency"/>
+        <element attributes="omit_sys_original=true" audit="true" label="Total share price" max_length="15" name="total_share_price_a" type="currency"/>
+        <element audit="true" choice="1" label="Funding Choice" max_length="40" name="u_funding_choice" type="string" use_dependent_field="true">
+            <choice>
+                <element label="Outright" sequence="0" value="Outright"/>
+                <element label="Leasing" sequence="1" value="Leasing"/>
+                <element label="Loan" sequence="2" value="Loan"/>
+                <element label="Hearcare payment plan" sequence="3" value="Hearcare payment plan"/>
+                <element label="Car" sequence="4" value="Car"/>
+                <element label="Contract Hire" sequence="5" value="Contract Hire"/>
+                <element label="Hire Purchase" sequence="6" value="Hire Purchase"/>
+            </choice>
+        </element>
+        <element audit="true" label="Rejection Reason" max_length="40" name="u_rejection_reason" type="string"/>
+        <element audit="true" choice="1" label="Security Type" max_length="40" name="u_security_type" type="string">
+            <choice>
+                <element label="Secured" sequence="1" value="Secured"/>
+                <element label="UnSecured" sequence="2" value="UnSecured"/>
+            </choice>
+        </element>
+        <element audit="true" label="Loan type 4: Loan Terms: Other Rate (%)" max_length="40" name="u_string_3" type="string"/>
+        <element audit="true" label="Loan type 3: Loan Terms: Other Rate (%)" max_length="40" name="u_string_4" type="string"/>
+        <element audit="true" label="Loan type 2: Loan Terms: Other Rate (%)" max_length="40" name="u_string_5" type="string"/>
+        <element audit="true" label="Loan type 1: Loan Terms: Other Rate (%)" max_length="40" name="u_string_6" type="string"/>
+    </element>
+</database>

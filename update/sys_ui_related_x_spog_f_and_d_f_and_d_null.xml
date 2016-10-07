@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_spog_f_and_d_f_and_d" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="F and D  - Default view" name="x_spog_f_and_d_f_and_d" related_list="NULL" sys_domain="global" view="Default view">7ee9181bdb752e006d11f1eabf961938</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>afaq.chalak</sys_created_by>
+            <sys_created_on>2016-09-16 13:54:54</sys_created_on>
+            <sys_id>72e9181bdb752e006d11f1eabf961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>afaq.chalak</sys_updated_by>
+            <sys_updated_on>2016-09-16 13:54:54</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="F and D  - Default view" name="x_spog_f_and_d_f_and_d" related_list="NULL" sys_domain="global" view="Default view">7ee9181bdb752e006d11f1eabf961938</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>task.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>afaq.chalak</sys_created_by>
+            <sys_created_on>2016-09-16 13:54:54</sys_created_on>
+            <sys_id>36e9181bdb752e006d11f1eabf961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>afaq.chalak</sys_updated_by>
+            <sys_updated_on>2016-09-16 13:54:54</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="F and D  - Default view" name="x_spog_f_and_d_f_and_d" related_list="NULL" sys_domain="global" view="Default view">7ee9181bdb752e006d11f1eabf961938</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>sysapproval_group.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>afaq.chalak</sys_created_by>
+            <sys_created_on>2016-09-16 13:54:54</sys_created_on>
+            <sys_id>f6e9181bdb752e006d11f1eabf961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>afaq.chalak</sys_updated_by>
+            <sys_updated_on>2016-09-16 13:54:54</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>F and D  - Default view</calculated_name>
+            <filter/>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>afaq.chalak</sys_created_by>
+            <sys_created_on>2016-09-16 13:54:54</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ee9181bdb752e006d11f1eabf961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>F and D  - Default view</sys_name>
+            <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+            <sys_update_name>sys_ui_related_x_spog_f_and_d_f_and_d_null</sys_update_name>
+            <sys_updated_by>afaq.chalak</sys_updated_by>
+            <sys_updated_on>2016-09-16 13:54:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

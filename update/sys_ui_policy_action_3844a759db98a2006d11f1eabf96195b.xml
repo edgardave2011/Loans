@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_string_3</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-06-28 09:57:13</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3844a759db98a2006d11f1eabf96195b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>u_string_3</sys_name>
+        <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3844a759db98a2006d11f1eabf96195b</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-07-15 16:42:58</sys_updated_on>
+        <table>x_spog_f_and_d_f_and_d</table>
+        <ui_policy display_value="Show Rate 4 Other ">ba142759db98a2006d11f1eabf961924</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

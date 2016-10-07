@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_email_canned_message">
+    <sys_email_canned_message action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <body><![CDATA[<p>Dear Partners</p>
+<p> </p>
+<p>We note from our records that it appears we are yet to receive your signed loan documents that were emailed on (<strong><font color="#FF0000">INSERT DATE</font></strong>).</p>
+<p> </p>
+<p>Please can you ensure these documents are returned by recorded delivery within 30 days of this email, should the required documents not be received by this date the loan offer will be withdrawn.</p>
+<p> </p>
+<p>Should you have any queries regarding the above, please do not hesitate to contact<br />gg.financinganddistributions&#64;specsavers.com</p>
+<p><br />Regards<br />Financing &amp; Distributions</p>]]></body>
+        <group display_value="F &amp; D" name="F &amp; D">362be47fdb8f92006d11f1eabf961968</group>
+        <sys_class_name>sys_email_canned_message</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-07-15 14:37:41</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>0787884fdba026002ab550d9bf961924</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Chaser</sys_name>
+        <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+        <sys_update_name>sys_email_canned_message_0787884fdba026002ab550d9bf961924</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-07-15 16:00:06</sys_updated_on>
+        <title>Chaser</title>
+        <user display_value="David Edgar">b773c69637b8820050579c9953990eae</user>
+    </sys_email_canned_message>
+</record_update>

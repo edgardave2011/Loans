@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>false</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_spog_f_and_d_f_and_d</collection>
+        <condition table="x_spog_f_and_d_f_and_d">fd_approvalCHANGESTOfp2 approved^request_type=Personal  loans requests^EQ<item endquery="false" field="fd_approval" goto="false" newquery="false" operator="CHANGESTO" or="false" value="fp2 approved"/>
+            <item endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="Personal  loans requests"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Dear ${opened_by}</p>
+<p>FP2 approval has been given for the following:</p>
+<p>Request number:&nbsp;${number}</p>
+<p>Request type: ${request_type}</p>
+<p>Loanee:&nbsp;${loanee.name}</p>
+<p>Short Description: ${short_description}</p>
+<p>Click here to view the terms approved for this request ${URI}</p>
+<p>If relevant the loan documents will be prepared and sent out to the partners in due course.&nbsp;</p>
+<p>If you have any further enquires relating to this request please reply directly to this email or contact the Financing &amp; Distributions team.</p>
+<p>Regards<br />Financing &amp; Distributions</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Loan - F&amp;D approval – FP2 (PL)</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>opened_by</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>F&amp;D FP2 approval granted</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-06-20 14:53:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c37b9372dbc02e002ab550d9bf96192d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Loan - F&amp;D approval – FP2 (PL)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+        <sys_update_name>sysevent_email_action_c37b9372dbc02e002ab550d9bf96192d</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-07-15 13:19:47</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

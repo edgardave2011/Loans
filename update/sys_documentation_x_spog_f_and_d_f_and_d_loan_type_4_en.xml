@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="loan_type_4" label="Loan Type 4" language="en" table="x_spog_f_and_d_f_and_d">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>loan_type_4</element>
+            <help/>
+            <hint/>
+            <label>Loan Type 4</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <plural>Loan Type 4s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 11:47:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a5550c6a3751d2004ed29c9953990e65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Loan Type 4</sys_name>
+            <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+            <sys_update_name>sys_documentation_x_spog_f_and_d_f_and_d_loan_type_4_en</sys_update_name>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 11:47:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

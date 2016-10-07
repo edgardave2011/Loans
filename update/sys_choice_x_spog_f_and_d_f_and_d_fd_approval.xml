@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="fd_approval" table="x_spog_f_and_d_f_and_d" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fd_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Yet Reqeusted</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-03-15 11:51:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a27f0b234f4e5200e0f34a318110c750</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-03-15 11:51:11</sys_updated_on>
+            <value>not yet reqeusted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fd_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-03-15 11:50:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f34f8b234f4e5200e0f34a318110c735</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-03-15 11:50:45</sys_updated_on>
+            <value>rejected</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fd_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>F&amp;D Reqeusted</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-03-15 11:54:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1dffcb234f4e5200e0f34a318110c72a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-03-15 11:54:15</sys_updated_on>
+            <value>f&amp;d requested</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fd_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-03-15 11:51:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f8f47234f4e5200e0f34a318110c786</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-03-15 11:53:39</sys_updated_on>
+            <value>approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fd_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FP1 Requested</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-03-15 11:51:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7daf47234f4e5200e0f34a318110c787</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-03-15 11:53:34</sys_updated_on>
+            <value>fp1 requested</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fd_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FP1 Approved</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-03-15 11:52:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3cfc7234f4e5200e0f34a318110c730</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-03-15 11:53:30</sys_updated_on>
+            <value>fp1 approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fd_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FP2 Requested</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-03-15 11:52:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0bf8b234f4e5200e0f34a318110c71f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-03-15 11:53:28</sys_updated_on>
+            <value>fp2 requested</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>fd_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FP2 Approved</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-03-15 11:52:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12df47234f4e5200e0f34a318110c78a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-03-15 11:53:25</sys_updated_on>
+            <value>fp2 approved</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>fd_approval</element>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-03-15 11:50:45</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>04b1e4bbdb8f92006d11f1eabf96193d</sys_id>
+            <sys_mod_count>15</sys_mod_count>
+            <sys_name>fd_approval</sys_name>
+            <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+            <sys_update_name>sys_choice_x_spog_f_and_d_f_and_d_fd_approval</sys_update_name>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-05 08:13:41</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

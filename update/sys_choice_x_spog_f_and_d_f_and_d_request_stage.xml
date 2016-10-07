@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="request_stage" table="x_spog_f_and_d_f_and_d" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pre FP</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>0</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 13:59:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7b3a0623791d2004ed29c9953990e5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 13:59:49</sys_updated_on>
+            <value>Pre FP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FP1</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>1</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 13:59:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03b3a0623791d2004ed29c9953990e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 13:59:49</sys_updated_on>
+            <value>FP1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FP2</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>2</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 13:59:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7b3a0623791d2004ed29c9953990e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 13:59:49</sys_updated_on>
+            <value>FP2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>request_stage</element>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 13:59:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>12f93f6bdb4f92006d11f1eabf96192d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>request_stage</sys_name>
+            <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+            <sys_update_name>sys_choice_x_spog_f_and_d_f_and_d_request_stage</sys_update_name>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-05 08:13:42</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Notes" section_id="1bb58c6a3751d2004ed29c9953990e61" sys_domain="global" table="x_spog_f_and_d_f_and_d" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>0</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-30 14:52:19</sys_created_on>
+            <sys_id>485da07bdb8a62402ab570d9bf96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">1bb58c6a3751d2004ed29c9953990e61</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-30 14:52:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>1</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-30 14:52:19</sys_created_on>
+            <sys_id>c85da07bdb8a62402ab570d9bf96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">1bb58c6a3751d2004ed29c9953990e61</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-30 14:52:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>2</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-30 14:52:19</sys_created_on>
+            <sys_id>4c5da07bdb8a62402ab570d9bf96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">1bb58c6a3751d2004ed29c9953990e61</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-30 14:52:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_rejection_reason</element>
+            <position>3</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-30 14:52:19</sys_created_on>
+            <sys_id>cc5da07bdb8a62402ab570d9bf96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">1bb58c6a3751d2004ed29c9953990e61</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-30 14:52:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>4</position>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-30 14:52:19</sys_created_on>
+            <sys_id>405da07bdb8a62402ab570d9bf96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">1bb58c6a3751d2004ed29c9953990e61</sys_ui_section>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-30 14:52:19</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notes</caption>
+            <header>false</header>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 11:48:45</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bb58c6a3751d2004ed29c9953990e61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Notes</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+            <sys_update_name>sys_ui_section_1bb58c6a3751d2004ed29c9953990e61</sys_update_name>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 11:48:45</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="F and D ">582aa3163751d2004ed29c9953990e75</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_spog_f_and_d_f_and_d">f_n_d_state=0^request_type=New store requests^project_category=New Store^EQ<item endquery="false" field="f_n_d_state" goto="false" newquery="false" operator="=" or="false" value="0"/>
+            <item endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="New store requests"/>
+            <item endquery="false" field="project_category" goto="false" newquery="false" operator="=" or="false" value="New Store"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Request</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_spog_f_and_d_f_and_d</name>
+        <order>15</order>
+        <override_menu_roles>true</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_spog_f_and_d.agent,x_spog_f_and_d.non_agent</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-05-03 13:18:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dc59b39f4f479600e0f34a318110c7f6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New Store</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+        <sys_update_name>sys_app_module_dc59b39f4f479600e0f34a318110c7f6</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-10-06 09:25:13</sys_updated_on>
+        <timeline_page/>
+        <title>New Store</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

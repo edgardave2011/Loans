@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="loan_type" table="x_spog_f_and_d_f_and_d" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Shopfit loan</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>0</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 13:26:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>332c1cae3751d2004ed29c9953990ef3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 13:26:49</sys_updated_on>
+            <value>Shopfit loan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Start up loan</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>1</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 13:26:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b2c1cae3751d2004ed29c9953990ef3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 13:26:49</sys_updated_on>
+            <value>Start up loan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hearcare in a box loan</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>2</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 13:26:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>332c1cae3751d2004ed29c9953990ef4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 13:26:49</sys_updated_on>
+            <value>Hearcare in a box loan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Personal loan</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>3</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 13:26:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f72c1cae3751d2004ed29c9953990ef4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 13:26:49</sys_updated_on>
+            <value>Personal loan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Equipment loan</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>4</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 13:26:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf2c1cae3751d2004ed29c9953990ef4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 13:26:49</sys_updated_on>
+            <value>Equipment loan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Low value loan</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>5</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 13:26:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>772c1cae3751d2004ed29c9953990ef5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-04-28 11:08:51</sys_updated_on>
+            <value>Low Value loan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Debt consolidation loan</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>6</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 13:26:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f2c1cae3751d2004ed29c9953990ef5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 13:26:49</sys_updated_on>
+            <value>Debt consolidation loan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Relocation loan</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>7</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 13:26:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f32c1cae3751d2004ed29c9953990ef6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 13:26:49</sys_updated_on>
+            <value>Relocation loan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>8</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 13:26:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb2c1cae3751d2004ed29c9953990ef6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 13:26:49</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>loan_type</element>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 13:26:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1ce428fbdb8f92006d11f1eabf9619d3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>loan_type</sys_name>
+            <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+            <sys_update_name>sys_choice_x_spog_f_and_d_f_and_d_loan_type</sys_update_name>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-05 08:13:43</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sc_req_item" version="2" view="RPT0b2a0588db352a002ab570d9bf96197a">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="cf2a0588db352a002ab570d9bf96197a">6b0ccd48db352a002ab570d9bf96194b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-06 15:13:43</sys_created_on>
+            <sys_id>af0ccd48db352a002ab570d9bf96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-06 15:13:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request.requested_for</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="cf2a0588db352a002ab570d9bf96197a">6b0ccd48db352a002ab570d9bf96194b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-06 15:13:43</sys_created_on>
+            <sys_id>230ccd48db352a002ab570d9bf96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-06 15:13:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="cf2a0588db352a002ab570d9bf96197a">6b0ccd48db352a002ab570d9bf96194b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-06 15:13:43</sys_created_on>
+            <sys_id>a30ccd48db352a002ab570d9bf96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-06 15:13:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cmdb_ci</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="cf2a0588db352a002ab570d9bf96197a">6b0ccd48db352a002ab570d9bf96194b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-06 15:13:43</sys_created_on>
+            <sys_id>270ccd48db352a002ab570d9bf96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-06 15:13:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>stage</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="cf2a0588db352a002ab570d9bf96197a">6b0ccd48db352a002ab570d9bf96194b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-06 15:13:43</sys_created_on>
+            <sys_id>a70ccd48db352a002ab570d9bf96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-06 15:13:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request.opened_by</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="cf2a0588db352a002ab570d9bf96197a">6b0ccd48db352a002ab570d9bf96194b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-06 15:13:43</sys_created_on>
+            <sys_id>2b0ccd48db352a002ab570d9bf96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-06 15:13:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>variables.b07c0493374d060050579c9953990eb8</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="cf2a0588db352a002ab570d9bf96197a">6b0ccd48db352a002ab570d9bf96194b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-06 15:13:43</sys_created_on>
+            <sys_id>ab0ccd48db352a002ab570d9bf96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-06 15:13:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sc_req_item</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-06 15:13:43</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b0ccd48db352a002ab570d9bf96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sc_req_item</sys_name>
+            <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+            <sys_update_name>sys_ui_list_sc_req_item_RPT0b2a0588db352a002ab570d9bf96197a</sys_update_name>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-06 15:13:43</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt0b2a0588db352a002ab570d9bf96197a" name="RPT0b2a0588db352a002ab570d9bf96197a">cf2a0588db352a002ab570d9bf96197a</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

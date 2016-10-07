@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Remove the Closed and Approved states from being selected by a non agent</description>
+        <field>of_sfg_funding_l_d</field>
+        <global>true</global>
+        <messages/>
+        <name>F&amp;D Hide Approval states</name>
+        <order/>
+        <script><![CDATA[	function onLoad() {
+if (g_user.hasRole('x_spog_f_and_d.non_agent')) {
+   g_form.removeOption("f_n_d_state", "2");
+	g_form.removeOption("f_n_d_state", "99");
+}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-06-14 09:56:54</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5f8d1bf8db40aa002ab550d9bf9619f6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>F&amp;D Hide Approval states</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+        <sys_update_name>sys_script_client_5f8d1bf8db40aa002ab550d9bf9619f6</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-06-14 12:58:20</sys_updated_on>
+        <table>x_spog_f_and_d_f_and_d</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

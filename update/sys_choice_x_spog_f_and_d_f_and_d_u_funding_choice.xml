@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_funding_choice" table="x_spog_f_and_d_f_and_d" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_funding_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outright</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>0</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 12:24:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>110e0cea3751d2004ed29c9953990ecd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 12:24:57</sys_updated_on>
+            <value>Outright</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_funding_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leasing</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>1</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 12:24:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>990e0cea3751d2004ed29c9953990ecd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 12:24:57</sys_updated_on>
+            <value>Leasing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_funding_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Loan</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>2</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 12:24:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>510e0cea3751d2004ed29c9953990ece</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 12:24:57</sys_updated_on>
+            <value>Loan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_funding_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hearcare payment plan</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>3</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 12:24:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>190e0cea3751d2004ed29c9953990ece</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 12:24:57</sys_updated_on>
+            <value>Hearcare payment plan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_funding_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Car</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>4</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 12:24:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd0e0cea3751d2004ed29c9953990ece</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 12:24:57</sys_updated_on>
+            <value>Car</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_funding_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contract Hire</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>5</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-15 10:52:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d766e72dbf9ea002ab570d9bf9619a8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-15 10:52:36</sys_updated_on>
+            <value>Contract Hire</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_funding_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hire Purchase</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>6</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-15 10:52:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4966a72dbf9ea002ab570d9bf9619b5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-15 10:52:53</sys_updated_on>
+            <value>Hire Purchase</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_funding_choice</element>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 12:24:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2ef93f6bdb4f92006d11f1eabf96194b</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_name>u_funding_choice</sys_name>
+            <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+            <sys_update_name>sys_choice_x_spog_f_and_d_f_and_d_u_funding_choice</sys_update_name>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-05 08:13:44</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

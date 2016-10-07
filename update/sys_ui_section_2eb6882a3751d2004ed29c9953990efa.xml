@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Loan Details" section_id="2eb6882a3751d2004ed29c9953990efa" sys_domain="global" table="x_spog_f_and_d_f_and_d" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_category</element>
+            <position>0</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>c9661234dba926006d11f1eabf96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_share_price_a</element>
+            <position>1</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>4d661234dba926006d11f1eabf96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>deposit_payable_b</element>
+            <position>2</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>cd661234dba926006d11f1eabf96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>loan_required_c</element>
+            <position>3</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>41661234dba926006d11f1eabf96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shares_purchased</element>
+            <position>4</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>c1661234dba926006d11f1eabf96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>of_deposit</element>
+            <position>5</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>45661234dba926006d11f1eabf96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_project_costs_d</element>
+            <position>6</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>c5661234dba926006d11f1eabf96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shopfit_reserve_account_balance_e</element>
+            <position>7</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>49661234dba926006d11f1eabf96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_funding_f</element>
+            <position>8</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>c9661234dba926006d11f1eabf96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>partner_start_up_loan_g</element>
+            <position>9</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>4d661234dba926006d11f1eabf96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>overdraft</element>
+            <position>10</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>05665a34dba926006d11f1eabf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>11</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>85665a34dba926006d11f1eabf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>partner_share_capital_h</element>
+            <position>12</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>09665a34dba926006d11f1eabf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sog_share_capital_i</element>
+            <position>13</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>89665a34dba926006d11f1eabf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sfg_start_up_loan_j</element>
+            <position>14</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>0d665a34dba926006d11f1eabf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_sfg_loan_required_k</element>
+            <position>15</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>8d665a34dba926006d11f1eabf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_sfg_loan_required_l</element>
+            <position>16</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>01665a34dba926006d11f1eabf96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_sfg_loan_required</element>
+            <position>17</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>81665a34dba926006d11f1eabf96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expected_project_date</element>
+            <position>18</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>05665a34dba926006d11f1eabf96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>of_sfg_funding_k_d</element>
+            <position>19</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>85665a34dba926006d11f1eabf96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>of_sfg_funding_l_d</element>
+            <position>20</position>
+            <sys_created_by>mansi.agrawal@snc</sys_created_by>
+            <sys_created_on>2016-08-27 18:18:14</sys_created_on>
+            <sys_id>09665a34dba926006d11f1eabf96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Loan Details" display_value="Loan Details" name="x_spog_f_and_d_f_and_d" sys_domain="global" view="Default view">2eb6882a3751d2004ed29c9953990efa</sys_ui_section>
+            <sys_updated_by>mansi.agrawal@snc</sys_updated_by>
+            <sys_updated_on>2016-08-27 18:18:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Loan Details</caption>
+            <header>false</header>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 11:53:04</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2eb6882a3751d2004ed29c9953990efa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Loan Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+            <sys_update_name>sys_ui_section_2eb6882a3751d2004ed29c9953990efa</sys_update_name>
+            <sys_updated_by>SNDavid</sys_updated_by>
+            <sys_updated_on>2016-02-03 11:53:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

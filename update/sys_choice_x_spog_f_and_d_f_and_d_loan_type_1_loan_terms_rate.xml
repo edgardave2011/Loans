@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="loan_type_1_loan_terms_rate" table="x_spog_f_and_d_f_and_d" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>6.25</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>0</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 14:35:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90fbe8a23791d2004ed29c9953990e62</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-23 08:24:47</sys_updated_on>
+            <value>6.25</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Please Select</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>0</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-26 11:45:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>973c9f9adb0222402ab570d9bf9619e8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-26 11:46:09</sys_updated_on>
+            <value>select</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3.750</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>1</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-23 08:21:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6990579ddb4eae002ab570d9bf961927</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-26 11:46:11</sys_updated_on>
+            <value>3.750</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>5.635</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>1</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 14:35:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1cfbe8a23791d2004ed29c9953990e62</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-23 08:24:48</sys_updated_on>
+            <value>5.635</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4.063</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>2</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-23 08:21:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64b01f9ddb4eae002ab570d9bf961996</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-26 11:46:12</sys_updated_on>
+            <value>4.063</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>4.635</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>2</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 14:35:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d0fbe8a23791d2004ed29c9953990e63</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-23 08:24:48</sys_updated_on>
+            <value>4.635</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>4.50</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>3</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 14:35:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98fbe8a23791d2004ed29c9953990e63</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-23 08:24:48</sys_updated_on>
+            <value>4.50</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4.690</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>3</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-23 08:21:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bcc0db9ddb4eae002ab570d9bf96190b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-26 11:46:14</sys_updated_on>
+            <value>4.690</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>4.25</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>4</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 14:35:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50fbe8a23791d2004ed29c9953990e64</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-23 08:24:47</sys_updated_on>
+            <value>4.25</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5.000</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>4</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-23 08:21:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27c0d39ddb4eae002ab570d9bf9619cc</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-26 11:46:16</sys_updated_on>
+            <value>5.000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>3.25</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>5</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 14:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18fbe8a23791d2004ed29c9953990e64</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-23 08:24:47</sys_updated_on>
+            <value>3.25</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5.310</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>5</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-23 08:22:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69d09b9ddb4eae002ab570d9bf961997</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-26 11:46:17</sys_updated_on>
+            <value>5.310</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5.625</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>6</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-30 13:57:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bb0a0b3db8a62402ab570d9bf9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-30 13:57:24</sys_updated_on>
+            <value>5.625</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5.938</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>7</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-23 08:22:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0de09f9ddb4eae002ab570d9bf961909</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-30 13:57:24</sys_updated_on>
+            <value>5.938</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>8</sequence>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 14:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dcfbe8a23791d2004ed29c9953990e64</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-30 13:57:24</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3.000</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>9</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-23 08:22:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79f0db9ddb4eae002ab570d9bf96190f</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-30 13:57:24</sys_updated_on>
+            <value>3.000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3.250</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>10</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-23 08:23:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3019b9ddb4eae002ab570d9bf96191e</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-30 13:57:24</sys_updated_on>
+            <value>3.250</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4.000</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>11</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-23 08:23:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9119b9ddb4eae002ab570d9bf96191e</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-30 13:57:24</sys_updated_on>
+            <value>4.000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4.250</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>12</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-23 08:24:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee21939ddb4eae002ab570d9bf9619fb</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-30 13:57:24</sys_updated_on>
+            <value>4.250</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4.500</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>13</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-23 08:24:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff41575ddb4eae002ab570d9bf96190d</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-30 13:57:24</sys_updated_on>
+            <value>4.500</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>loan_type_1_loan_terms_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4.750</label>
+            <language>en</language>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sequence>14</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-09-23 08:24:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e25113dddb4eae002ab570d9bf9619e0</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-09-30 13:57:24</sys_updated_on>
+            <value>4.750</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>loan_type_1_loan_terms_rate</element>
+            <name>x_spog_f_and_d_f_and_d</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>SNDavid</sys_created_by>
+            <sys_created_on>2016-02-03 14:35:40</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>edf9fb6bdb4f92006d11f1eabf9619f8</sys_id>
+            <sys_mod_count>81</sys_mod_count>
+            <sys_name>loan_type_1_loan_terms_rate</sys_name>
+            <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+            <sys_update_name>sys_choice_x_spog_f_and_d_f_and_d_loan_type_1_loan_terms_rate</sys_update_name>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2016-10-05 08:14:02</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

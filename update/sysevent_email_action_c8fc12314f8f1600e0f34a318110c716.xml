@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>sysapproval_approver</collection>
+        <condition table="sysapproval_approver">sysapproval.numberSTARTSWITHFD^sysapproval.short_descriptionLIKEcars^ORsysapproval.short_descriptionLIKEequipment^EQ<item endquery="false" field="sysapproval.number" goto="false" newquery="false" operator="STARTSWITH" or="false" value="FD"/>
+            <item endquery="false" field="sysapproval.short_description" goto="false" newquery="false" operator="LIKE" or="false" value="cars"/>
+            <item endquery="false" field="sysapproval.short_description" goto="false" newquery="false" operator="LIKE" or="true" value="equipment"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>approval.inserted</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Request to approve progression of ${sysapproval.number}</p>
+<p>Short description: ${sysapproval.short_description}<br />Borrower: ${sysapproval.loanee}<br /> Contact Name: ${sysapproval.contact_name}<br /> Description: ${sysapproval.description}</p>
+<p>_______________________________________________________________________________</p>
+<p><br /> Project category: ${sysapproval.project_category}<br /> Total project costs: ${sysapproval.total_project_costs_d}<br /> Shopfit reserve account balance: ${sysapproval.shopfit_reserve_account_balance_e}<br /> Other funding: ${sysapproval.other_funding_f}<br /> Total SFG Loan required(total_sfg_loan_required_k): ${sysapproval.total_sfg_loan_required_k}<br /> Expected project date: ${sysapproval.expected_project_date}<br /> % of SFG funding(of_sfg_funding_k_d): ${sysapproval.of_sfg_funding_k_d}</p>
+<p>_______________________________________________________________________________</p>
+<p>&nbsp;</p>
+<p>Loan Type: ${sysapproval.loan_type}<br /> Loan type 1: Loan terms: Amount: ${sysapproval.loan_type_1_loan_terms_amount}<br /> Loan type 1: Loan terms: Length: ${sysapproval.loan_type_1_loan_terms_length}<br /> Loan type 1: Loan terms: Rate (%): ${sysapproval.loan_type_1_loan_terms_rate}<br /> Loan type 1: Loan Terms: Other Rate (%): ${sysapproval.u_string_6}<br /> Loan type 1: Loan terms: Comments: ${sysapproval.loan_type_1_loan_terms_comments}</p>
+<p>&nbsp;</p>
+<p>Loan 2 Required: ${sysapproval.loan_2_required}<br /> Loan Type 2: ${sysapproval.loan_type_2}<br /> Loan type 2: Loan terms: Amount: ${sysapproval.loan_type_2_loan_terms_amount}<br /> Loan type 2: Loan terms: Length: ${sysapproval.loan_type_2_loan_terms_length}<br /> Loan type 2: Loan terms: Rate (%): ${sysapproval.loan_type_2_loan_terms_rate}<br /> Loan type 2: Loan Terms: Other Rate (%): ${sysapproval.u_string_5}<br /> Loan type 2: Loan terms: Comments: ${sysapproval.loan_type_2_loan_terms_comments}</p>
+<p>&nbsp;</p>
+<p>Loan 3 Required: ${sysapproval.loan_3_required}<br /> Loan Type 3: ${sysapproval.loan_type_3}<br />Loan type 3: Loan terms: Amount: ${sysapproval.loan_type_3_loan_terms_amount}<br />Loan type 3: Loan terms: Length: ${sysapproval.loan_type_3_loan_terms_length}<br />Loan type 3: Loan terms: Rate (%): ${sysapproval.loan_type_3_loan_terms_rate}<br />Loan type 3: Loan Terms: Other Rate (%): ${sysapproval.u_string_4}<br />Loan type 3: Loan terms: Comments: ${sysapproval.loan_type_3_loan_terms_comments}</p>
+<p>&nbsp;</p>
+<p>Loan 4 Required: ${sysapproval.loan_4_required}<br />Loan Type 4: ${sysapproval.loan_type_4}<br />Loan type 4: Loan terms: Amount: ${sysapproval.loan_type_4_loan_terms_amount}<br />Loan type 4: Loan terms: Length: ${sysapproval.loan_type_4_loan_terms_length}<br />Loan type 4: Loan terms: Rate (%): ${sysapproval.loan_type_4_loan_terms_rate}<br />Loan type 4: Loan Terms: Other Rate (%): ${sysapproval.u_string_5}<br />Loan type 4: Loan terms: Comments: ${sysapproval.loan_type_4_loan_terms_comments}</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div><hr /></div>
+<div>${mailto:mailto.approval}</div>
+<div>
+<div><hr /></div>
+</div>
+<div>${mailto:mailto.rejection}</div>
+<div>
+<div><hr /></div>
+</div>
+<div>Click here to view Approval Request: ${URI}</div>
+<div>Click here to view ${sysapproval.sys_class_name}: ${sysapproval.URI}</div>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>F&amp;D Equipment Approval Request</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>approver</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>F&amp;D Equipment Approval Request - ${sysapproval.number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-28 14:43:48</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c8fc12314f8f1600e0f34a318110c716</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>F&amp;D Equipment Approval Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="F and D" source="x_spog_f_and_d">45c86b523751d2004ed29c9953990e0b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="F and D">45c86b523751d2004ed29c9953990e0b</sys_scope>
+        <sys_update_name>sysevent_email_action_c8fc12314f8f1600e0f34a318110c716</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-09-30 11:11:57</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
